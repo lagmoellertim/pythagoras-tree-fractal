@@ -3,10 +3,10 @@
 ## Introduction
 The Pythagoras Tree Fractal is a fractal that is made up of cubes and triangles. When it is generated with enough iterations, it looks like a tree, so that's where the name came from. You can read more over it on [wikipedia](https://en.wikipedia.org/wiki/Pythagoras_tree_(fractal)).
 
-## Example
+## Examples
 
-![Image of Pythagoras Tree Fractal](https://github.com/lagmoellertim/pythagoras-tree-fractal/raw/master/example.png)
-
+![Image of Pythagoras Tree Fractal](https://github.com/lagmoellertim/pythagoras-tree-fractal/raw/master/examples/example_1.png)
+![Image of Pythagoras Tree Fractal](https://github.com/lagmoellertim/pythagoras-tree-fractal/raw/master/examples/example_2.png)
 ## Prerequisites
 
 - Python >= 3.2
@@ -29,14 +29,14 @@ cd pythagoras-tree-fractal
 ```python3
 generator = TreeFractal()
 ```
-You can specify the width, height, base_length and background_color, as seen in the code documentation
+You can specify the width, height, base_length, background_color, offset_x and offset_y as seen in the code documentation
 
 ### Generate a Tree
 
 ```python3
 generator.generate()
 ```
-You can choose the depth, background color and a style generation function, as seen in the code documentation
+You can choose the depth, background color, a style generation function, angle and mirror as seen in the code documentation
 
 ### Custom style generation function
 
